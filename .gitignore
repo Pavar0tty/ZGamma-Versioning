@@ -1,5 +1,6 @@
-# Non tengo conto dei file root per risparmiare spazio
+# Non tengo conto dei file root e pdf per risparmiare spazio
 *.root
+*.pdf
 
 # Prerequisites
 *.d
