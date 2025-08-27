@@ -1,3 +1,3 @@
-timestamp: 2025-08-26T14:42:39Z
+timestamp: 2025-08-26T20:55:59Z
 version: v1
-comment: Aggiunto lower bound su pt_jet e invertito stack di disegno
+comment: Aggiunto lower bound per pt_jet e rimossa condizione per eta_jet
