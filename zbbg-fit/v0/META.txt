@@ -1,0 +1,4 @@
+timestamp: 2025-09-10T12:04:40+0200
+version: v0
+comment: Versione iniziale, va ancora modificato qualcosa
+type: zbbg-fit
