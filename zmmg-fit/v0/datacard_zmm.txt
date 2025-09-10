@@ -1,0 +1,29 @@
+imax * 
+jmax * 
+kmax * 
+------------ 
+shapes zmm zmm workspace_zmm.root w:pdf_zmm 
+shapes bkg zmm workspace_zmm.root w:pdf_bkg 
+shapes data_obs zmm workspace_zmm.root w:data 
+------------ 
+bin zmm 
+observation -1 
+------------ 
+bin zmm zmm 
+process  zmm   bkg 
+process  0     1   
+rate  1   1  
+------------ 
+lumi_13p6TeV  lnN  1.014  1.014 
+QCD_scale_zjet lnN  0.95/1.05  - 
+QCD_scale_bkg  lnN  -  0.93/1.06 
+NLOEWK_corr_zjet lnN  0.92/1.08  - 
+pdf_zjet lnN  0.98/1.02  - 
+pdf_bkg  lnN  -   0.96/1.03  
+CMS_scale_j  lnN  0.98/1.01  0.98/1.01 
+CMS_res_j  lnN  0.99/1.01  0.99/1.01 
+CMS_scale_m  lnN  0.99/1.02  0.98/1.02 
+CMS_res_m  lnN  0.997/1.005  0.997/1.005 
+CMS_trigger_m  lnN  0.99/1.02  0.99/1.02 
+CMS_mus_unc param 0 1
+CMS_mur_unc param 0 1
