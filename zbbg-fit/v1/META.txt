@@ -1,0 +1,4 @@
+timestamp: 2025-09-11T11:26:07+0200
+version: v1
+options: --mass-obs mSD --year 2022
+comment: Aggiunta la parte per Z-Gamma
