@@ -1,0 +1,4 @@
+timestamp: 2025-09-15T17:06:03+0200
+version: v3
+options: --mass-obs mSD --year 2022
+comment: Aggiunta CAT3 comprensva (ref: v5 zbbg)

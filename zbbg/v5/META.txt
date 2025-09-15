@@ -1,0 +1,3 @@
+timestamp: 2025-09-15T17:02:04+0200
+version: v5
+comment: Aggiunta CAT3 che comprende tutti gli eventi da 0.95 a 1
