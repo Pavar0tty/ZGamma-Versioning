@@ -1,0 +1,4 @@
+timestamp: 2025-09-18T17:31:43+0200
+version: v5_pol
+options: --mass-obs mSD --year 2022 --use-poly-bkg
+comment: Background con polinomio, parametri per zg allargati
