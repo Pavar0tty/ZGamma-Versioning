@@ -1,0 +1,4 @@
+timestamp: 2025-09-19T16:54:31+0200
+version: v6_comb
+options: --mass-obs mSD --year 2022
+comment: Somma di gaussiane per ZJ e WG

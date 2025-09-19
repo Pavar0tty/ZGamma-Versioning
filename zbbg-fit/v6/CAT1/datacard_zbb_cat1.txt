@@ -1,0 +1,32 @@
+imax * 
+jmax * 
+kmax * 
+------------ 
+shapes zjet workspace_cat1.root w:pdf_zjet
+shapes wjet workspace_cat1.root w:pdf_wjet
+shapes zg workspace_cat1.root w:pdf_zg
+shapes gj workspace_cat1.root w:pdf_gj
+shapes data_obs workspace_cat1.root w:data
+------------ 
+bin   
+observation -1 
+------------ 
+process   zjet  wjet  zg  gj 
+process   0     1     2   3 
+rate   1     1     1   1 
+------------ 
+lumi_13p6TeV  lnN  1.014  1.014  1.014  -
+gj_scale_zjet  lnN  0.94/1.05  -  -  -
+gj_scale_wjet  lnN  -  0.95/1.05  -  -
+gj_scale_zg  lnN  -  -  0.94/1.05  -
+NLOEWK_corr_zjet  lnN  1.00  -  -  -
+NLOEWK_corr_wjet  lnN  -  1.00  -  -
+NLOEWK_corr_zg  lnN  -  -  1.00  -
+pdf_zjet lnN  0.98/1.02  -  -  -
+pdf_wjet lnN  -  0.98/1.02  -  -
+pdf_zg lnN  -  -  0.98/1.02  -
+CMS_scale_j  lnN  0.97/1.03 0.96/1.04  0.97/1.03  -
+CMS_res_j  lnN  0.98/1.01   0.97/1.02  0.98/1.01  -
+CMS_trigger_zbb  lnN  0.98/1.02  0.97/1.02  0.98/1.02  -
+CMS_jms_unc param 0 1
+CMS_jmr_unc param 0 1
