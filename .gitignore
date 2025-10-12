@@ -4,6 +4,7 @@
 
 # Conservo invece i pdf in zbbmzmm
 !zbbmzmm/
+!zbbmzmm/**/*.pdf
 
 # Prerequisites
 *.d
