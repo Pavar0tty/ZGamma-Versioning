@@ -1,9 +1,5 @@
 # Non tengo conto dei file root e pdf per risparmiare risorse
 *.root
-*.pdf
-
-# Conservo invece i pdf in zbbmzmm
-!zbbmzmm/
 
 # Prerequisites
 *.d
